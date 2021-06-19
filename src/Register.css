@@ -13,6 +13,7 @@
     padding: 20px;
     background-color: #e9ebee;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .register__container > h1 {

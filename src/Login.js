@@ -60,9 +60,13 @@ function Login() {
                         <hr />
                     </center>
                     <center>
-                        <Link to="/register">
-                            <button className="login__createNewAccount">Create New Account</button>
+                    <div class="sideinfo">
+                        <h5>Forgotten Password?</h5>
+                        <h5 class="dot">·</h5>
+                        <Link to="/register" style={{ textDecoration: 'none' }}>
+                            <h5 class="rtd">Create New Account</h5>
                         </Link>
+                        </div>
                     </center>
                 </form>
             </div>
