@@ -21,27 +21,8 @@ function Sidebar2() {
                 <Sidebar2Row ImageURL="https://scontent.fhyd11-1.fna.fbcdn.net/v/t1.0-1/p120x120/80855783_10157873314004486_4183724417513160704_o.jpg?_nc_cat=1&_nc_sid=1eb0c7&_nc_ohc=hDdT_bqb4JoAX8CG3dv&_nc_ht=scontent.fhyd11-1.fna&tp=6&oh=674ff55df9e0e6ebf9cbaaf04184e964&oe=5F735E51" title="Ed Sheeran" />
                 <Sidebar2Row ImageURL="https://scontent.fhyd11-1.fna.fbcdn.net/v/t1.0-1/p120x120/96418866_10158756322663888_5611380772293312512_o.jpg?_nc_cat=1&_nc_sid=1eb0c7&_nc_ohc=A8HMI6p_yGcAX_NRMRk&_nc_ht=scontent.fhyd11-1.fna&tp=6&oh=cbb75e2641868133ddd307ccc540a3e1&oe=5F743AE4" title="Justin Bieber" />
             </div>
-        </div >
-
-        // <div className="sidebar2">
-        //     <div className="sidebar2__languages">
-        //         <p className="sidebar2__selected">English (UK) · </p>
-        //         <p>English (US) · </p>
-        //         <p>हिन्दी · </p>
-        //         <p>اردو · </p>
-        //         <p>தமிழ் · </p>
-        //     </div>
-        //     <div className="sidebar2__policies">
-        //         <p>Privacy · </p>
-        //         <p>Terms · </p>
-        //         <p>Advertising · </p>
-        //         <p>AdChoices · </p>
-        //         <p>Cookies · </p>
-        //         <p>More</p>
-        //     </div>
-        //     <p className="copyright">Facebook © 2020</p>
-        // </div>
-    )
+        </div>
+    );
 }
 
 export default Sidebar2

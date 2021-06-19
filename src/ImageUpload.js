@@ -5,7 +5,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Button from "@material-ui/core/Button";
 import { storage, db } from "./firebase.js";
-import { useHistory } from "react-router-dom";
 import './ImageUpload.css';
 import firebase from "firebase";
 
@@ -58,7 +57,7 @@ function ImageUpload({ username }) {
     const handleUpload = (event) => {
         event.preventDefault()
 
-        if (image == '') {
+        if (image === '') {
             db.collection("posts").add({
                 timestamp: firebase.firestore.FieldValue.serverTimestamp(),
                 caption: caption,

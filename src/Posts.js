@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ImageUpload from './ImageUpload';
 import './Posts.css';
-import firebase from 'firebase';
 import { db } from './firebase';
 import Post from './Post.js';
 import { useHistory } from 'react-router-dom';

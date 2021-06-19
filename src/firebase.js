@@ -1,4 +1,5 @@
 import firebase from "firebase";
+// Firebase account with Sample2..
 
 const firebaseConfig = firebase.initializeApp({
     apiKey: "AIzaSyAPtBsXyaxcAude3JC9OmxtWkkNXBlWjk0",
