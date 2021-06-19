@@ -10,6 +10,7 @@ import HomeHeader from './HomeHeader.js';
 import Sidebar from './Sidebar.js';
 import Sidebar2 from './Sidebar2.js';
 import Posts from './Posts.js';
+import StoryReel from './StoryReel.js';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
           </Route>
           <Route path="/">
             <HomeHeader user={user} />
+            <StoryReel user={user}/>
             <div className="app__page">
               <Sidebar user={user} />
               <div className="app__posts">
