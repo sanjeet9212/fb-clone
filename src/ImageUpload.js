@@ -36,7 +36,9 @@ function ImageUpload({ username }) {
     const classes = useStyles();
     const [modalStyle] = useState(getModalStyle);
     const [open, setOpen] = useState(false);
+    // eslint-disable-next-line
     const [comment, setComment] = useState('');
+    // eslint-disable-next-line
     const [noLikes, setNoLikes] = useState(0);
     const [image, setImage] = useState('');
     const [caption, setCaption] = useState('');
@@ -139,6 +141,7 @@ function ImageUpload({ username }) {
                                 <span class="checkmark"></span>
                             </label>
                             <div class="imageupload__colorwrap1">
+                                {/* eslint-disable-next-line */}
                                 <img src="https://www.flaticon.com/premium-icon/icons/svg/1674/1674711.svg" className="imageupload__newsFeed" />
                             </div>
                             <h3>News Feed</h3>

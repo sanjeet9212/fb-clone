@@ -71,6 +71,7 @@ function HomeHeader({ user }) {
                     </IconButton>
                     <IconButton>
                         <div className="dropdown-content">
+                        {/* eslint-disable-next-line */}
                         <a onClick={logout}><p>Logout</p></a>
                         </div>
                     </IconButton>

@@ -23,6 +23,7 @@ function Post({ postId, origuser, username, userId, caption, imageUrl, noLikes, 
         }
     }, [postId]);
 
+    //eslint-disable-next-line
     useEffect(() => {
         db.collection("posts")
             .doc(postId)
@@ -40,6 +41,7 @@ function Post({ postId, origuser, username, userId, caption, imageUrl, noLikes, 
                     }
                 }
             })
+           // eslint-disable-next-line
     }, [postId, userId]);
 
     const likeHandle = (event) => {
