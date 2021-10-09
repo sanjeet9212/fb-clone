@@ -1,14 +1,14 @@
 import firebase from "firebase";
-// Firebase account with Sanju01..
+// Firebase account with sanju02..
 
 const firebaseConfig = firebase.initializeApp({
-    apiKey: "AIzaSyDTET08uK-xhOQVWilheVrWt9hkfPAmDWE",
-    authDomain: "sanju01-cf2db.firebaseapp.com",
-    projectId: "sanju01-cf2db",
-    storageBucket: "sanju01-cf2db.appspot.com",
-    messagingSenderId: "434677585526",
-    appId: "1:434677585526:web:08cedd1c9840c495613157",
-    measurementId: "G-X50RH6KX5K"
+    apiKey: "AIzaSyAHLmr23Z669tC62GINC3Rp6wLTFJ8PAPM",
+    authDomain: "sanju02-680db.firebaseapp.com",
+    projectId: "sanju02-680db",
+    storageBucket: "sanju02-680db.appspot.com",
+    messagingSenderId: "738932688769",
+    appId: "1:738932688769:web:744647bc1843c6fc8b4a80",
+    measurementId: "G-69XJBWXY79"
 });
 
 const auth = firebase.auth();
