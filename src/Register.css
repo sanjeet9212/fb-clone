@@ -57,6 +57,7 @@
     color: white;
     font-size: 17px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .register__name {

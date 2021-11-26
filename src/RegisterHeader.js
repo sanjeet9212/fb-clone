@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './RegisterHeader.css';
+import { ReactComponent as FbLogo } from './assets/logo.svg';
 
 function RegisterHeader() {
     return (
         <div className="Registerheader">
             <div className="Register_header__left">
                 <Link to="/">
-                    <img src="https://i.ibb.co/WzybLQK/del.png" alt="Facebook Logo" className="Register_header__logo" />
+                    <FbLogo/>
                 </Link>
             </div>
             <div className="Register_header__right">
